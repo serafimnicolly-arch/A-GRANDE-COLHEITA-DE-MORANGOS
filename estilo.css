@@ -4,4 +4,7 @@ body{
     background-color: rgb(233, 40, 40);
     color: greenyellow;
     font-family: "Cinzel", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
