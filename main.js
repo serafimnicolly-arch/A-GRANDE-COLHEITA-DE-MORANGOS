@@ -2,5 +2,8 @@ const avanca =document.querySelectorAll('.btn-proximo')
 console.log(avanca)
 
 avanca.forEach(button =>{
-    butt
+ button.addEventListener('clik' , function () { 
+    const atual = document.querySelector('.ativo')
+ const proximoPasso = 'passo-' + this.getAttribute ('data-proximo')
+})
 })
